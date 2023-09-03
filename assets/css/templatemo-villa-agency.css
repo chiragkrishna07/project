@@ -1496,24 +1496,122 @@ Footer Style
 --------------------------------------------- 
 */
 
+/* Existing footer styles */
 footer.footer-no-gap {
   margin-top: 0px;
 }
 
 footer {
-  margin-top: 30px;
-  background-color: #1e1e1e;
+  margin-top: 20px;
+  background-color: #cccccc;
   min-height: 100px;
+  padding-top: 20px;
 }
 
 footer p {
-  /* background-color: #1e1e1e; */
-  text-align: center;
-  line-height:100px;
+  text-align:left;
+  /* line-height: 100px; */
   color: #fff;
   font-size: 16px;
   font-weight: 400;
 }
+
+/* Add your existing CSS styles here */
+footer .container {
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+footer .extracontent {
+  display: flex; /* Arrange the sections in a row */
+  justify-content: space-between; /* Distribute space evenly between sections */
+  align-items: flex-start; /* Align items at the top of the container */
+  padding: 20px; /* Add padding as needed */
+}
+
+footer .extracontent > div {
+  flex: 1; /* Distribute available space equally among sections */
+  padding: 10px; /* Add padding to each section as needed */
+  border: 1px solid #ccc; /* Add borders to separate sections */
+  margin: 5px; /* Add margin to create spacing between sections */
+}
+
+.contact_info p{
+  margin-top: 10px;
+  margin-left: 5px;
+  color: #000000;
+}
+
+.socials a{
+  margin-left: 10px;
+}
+
+.socials i{
+  margin-top: 20px;
+}
+
+.addphonemail i {
+  color: #db2e2e;
+  margin-right: 5px; /* Adjust the margin as needed to create space between icons and text */
+}
+
+.quick_links ul li{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.quick_links ul li a{
+  text-decoration: none;
+  color: #000000;
+  transition: box-shadow 0.3s ease-in-out; 
+}
+
+.quick_links ul li a:hover{
+  color: #fd0000;
+  box-shadow: 0 0 5px rgba(255, 41, 41, 0.8);
+}
+
+.Productss ul li{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.Productss a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.Productss ul li a{
+  text-decoration: none;
+  color: #000000;
+  transition: box-shadow 0.3s ease-in-out; 
+}
+
+.Productss ul li a:hover{
+  color: #fd0000;
+  box-shadow: 0 0 5px rgba(255, 41, 41, 0.8);
+}
+
+.mapss iframe{
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.copyright{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1e1e1e;
+}
+.copyright p{
+  color: #ffffff;
+}
+
+/* ------------------------------------ */
+/* ------------------------------------ */
+
+/* ------------------------------------ */
+/* ------------------------------------ */
 
 /* footer p a {
   color: #fff;
@@ -1534,7 +1632,7 @@ Page Header Style
 */
 
 .page-heading {
-  background-image: url(../images/page-heading-bg.jpg);
+  background-image: url(../images/gsmarena_000\ \(1\).jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
