@@ -273,7 +273,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #f35525;
+  background: #dd0f0f;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -296,7 +296,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #f35525;
+  background: #dd0f0f;
   border-radius: 50%;
 }
 
@@ -943,6 +943,10 @@ Fun Facts Style
   text-align: center;
 }
 
+.fun-facts .counter:hover{
+  background:#ffd2c4;
+}
+
 .fun-facts .counter p {
   font-size: 16px;
   color: #1e1e1e;
@@ -959,7 +963,7 @@ Properties Style
 
 .properties {
   background-color: #ffffff;
-  padding: 20px 0; 
+  padding: 0px 0; 
 }
 
 .properties .section-heading h2 {
@@ -1041,7 +1045,7 @@ Contact Style
 .contact-content .item {
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  padding: 35px 30px;
+  padding: 25px 15px;
   background-color: #fff;
 }
 
@@ -1158,7 +1162,7 @@ footer .extracontent {
   display: flex; 
   justify-content: space-between; 
   align-items: flex-start; 
-  padding: 20px; 
+  padding: 10px; 
 }
 
 footer .extracontent > div {
@@ -1228,6 +1232,7 @@ footer .extracontent > div {
   height: 250px;
   width: 100%;
   border-radius: 10px;
+  margin-top: 5px;
 }
 
 .copyright{
@@ -1619,18 +1624,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* .header-area .main-nav .logo h1 {
-    line-height: 80px !important;
-  } */
-  .best-deal .tabs-content .nav-link {
-    font-size: 14px;
-    padding: 0px 15px;
-    height: 44px;
-    line-height: 44px;
-  }
-  .best-deal .tabs-content ul.nav-tabs li {
-    margin: 0px 5px;
-  }
   .properties ul.properties-filter li a {
     font-size: 14px;
     padding: 10px 15px;
@@ -1672,22 +1665,6 @@ body {
   .fun-facts .counter {
     margin-bottom: 45px;
   }
-  .best-deal .section-heading {
-    text-align: center;
-  }
-  .best-deal .tabs-content ul.nav-tabs {
-    margin-top: 0px;
-    justify-content: center;
-  }
-  .best-deal .info-table {
-    margin-bottom: 45px;
-  }
-  .best-deal .tab-content img {
-    padding: 0px;
-  }
-  .best-deal .tabs-content h4 {
-    margin-top: 45px;
-  }
   .properties .item h6 {
     text-align: center;
     margin-bottom: 15px;
@@ -1710,10 +1687,6 @@ body {
   .contact-content #contact-form {
     margin-left: 0px;
   }
-  .single-property .info-table {
-    margin-left: 0px;
-    margin-top: 45px;
-  }
   .contact-page .section-heading {
     margin-right: 0px !important;
   }
@@ -1721,17 +1694,9 @@ body {
     margin-left: 0px;
     margin-top: 60px;
   }
-  .best-deal .info-table ul li span {
-    float: right !important;
-    width: auto !important;
-  }
 }
 
 @media (max-width: 1200px) {
-  .best-deal .info-table ul li span {
-    float: none;
-    width: 100%;
-  }
   .contact-page .section-heading {
     margin-right: 100px;
   }
